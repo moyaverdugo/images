@@ -1,12 +1,40 @@
 .container {
+    width: 100vw;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media (min-width: 1200px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+#general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dash-graph {
+    /* Any additional styling for graphs */
+}
+
+.data-table {
+    margin-top: 10px;
+}
+
+.time-line {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    height: 600px;
+    width: 100%;
+    background-image: url('https://raw.githubusercontent.com/moyaverdugo/images/main/footer_mountains.png');
+    background-size: cover;
+    background-position: center;
 }
